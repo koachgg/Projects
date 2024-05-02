@@ -1,5 +1,5 @@
-### Projects
-A repository of all the small and personal projects created
+# Projects
+A repository of all the small and personal projects created by Belo Abhigyan
 
 
 ## Project : Dicee Game
@@ -44,32 +44,53 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 --- 
 
 ## Project 2 :   Suicidal Intention Detection in Text Using BERT-Based Transformers
+### [Click Here](https://github.com/koachgg/Projects/blob/main/Suicide_Intent_Detection%20(1).ipynb)
+## Objective: 
+Developed a suite of BERT-based transformer models to detect suicidal intention in textual data, contributing to efforts to prevent suicide by analyzing social media posts for signs of ideation.
 
-## Description :
- • Developed a novel approach to identify suicidal intention in text by leveraging BERT-based transformer models.
+## Dataset:
+The dataset was sourced from the "SuicideWatch" subreddit on Reddit, consisting of 232,074 posts categorized into suicide and non-suicide classes. It was stratified into training (162,451) and testing (69,623) sets using stratified random sampling.
+
+## Preprocessing:
+
+- Text preprocessing included:
+- Converting capital letters to lowercase.
+- Removing broken Unicode, URLs, and extra spaces.
+- Expanding contractions and correcting special characters.
+- Filtering out HTML tags, punctuation, and emoticons.
+- Implemented the BERT preprocessing module for additional processing and tokenization.
+
+  ## Models Implemented:
+
+- BERT-Based Models: Utilized various pre-trained transformer models to classify text based on suicidal intention.
+- BERT-Base
+- ALBERT
+- BERT Experts
+- BERT with Talking-Heads Attention and Gated GELU
+- ELECTRA
+Each model was fine-tuned on the dataset with a one-cycle learning rate policy and specific configurations such as maximum length, batch size, and transformer parameters.
+
+## Results:
+
+- The BERT with Talking-Heads Attention and Gated GELU model achieved the highest performance with 90.64% training accuracy and 90.27% testing accuracy, along with a response time of 12 seconds for detecting suicidal intention in text.
+- Other models also performed well:
+1. BERT-Base: 89.75% training accuracy and 89.49% testing accuracy.
+2. ALBERT: 88.34% training accuracy and 87.85% testing accuracy.
+3. BERT Experts: 88.83% training accuracy and 87.58% testing accuracy.
+4. ELECTRA: 87.17% training accuracy and 87.06% testing accuracy.
+
+Model performance was evaluated using metrics such as accuracy, precision, recall, and F1-score.
  
- • Collected and preprocessed a dataset of over 232,000 Reddit posts from the ”SuicideWatch” subreddit, handling
- challenges like broken Unicode and capitalization normalization.
- 
- • Implemented and fine-tuned various BERT-based models, including BERT, ALBERT, BERT Experts, BERT with
- Talking-Heads Attention and Gated GELU, and ELECTRA.
- 
- • Achieved the highest accuracy of 90.64 and 90.27 on the training and testing sets, respectively, with the BERT with
- Talking-Heads Attention and Gated GELU model
+ ## Tools & Technologies Used:
 
- ## Technologies Used:
-
-
- - Python
-
- - NLP
-
- - Deep Learning
+- Languages: Python
+- Libraries: TensorFlow, PyTorch, Hugging Face Transformers
+- Platforms: Google Colab Pro with T4 GPU and 51GB RAM
 
 ---
 
 ## Project 3 : MILK QUALITY DETECTION USING MACHINE LEARNING ALGORITHMS
-
+### [Click Here](https://github.com/koachgg/Projects/blob/main/Milk_Quality_Detection.ipynb)
 ## Objective:
  Developed a machine learning model to predict and prevent milk spoilage, reducing financial losses and mitigating health risks.
 
