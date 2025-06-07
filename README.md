@@ -1,7 +1,7 @@
 # Projects
 A repository of all the small and personal projects created by Belo Abhigyan
 
-## Project 2 :   Suicidal Intention Detection in Text Using BERT-Based Transformers
+## Project 2 :   Suicidal Intention Detection in Text Using BERT-Based Transformers - Fine Tuning Based
 ### [Click Here](https://github.com/koachgg/Projects/blob/main/Suicide_Intent_Detection%20(1).ipynb)
 
 ### [Report for the same](https://drive.google.com/file/d/1bZ2gSoQaHEiZNrCBZ5F4PUDJZdUjWwBm/view?usp=sharing)
